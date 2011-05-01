@@ -28,9 +28,9 @@ Errors
 ------
 
 If the operation was successfull the `error` object passed to the callback will
-be `null`. If the operation fails the error object will contain an
-`errorCode` and an `errorDescription` field with values according to the
-[aspsms.com documentation][aspsmsdoc].
+be `null`. If the operation fails the error object will contain an `errorCode`
+and an `errorDescription` field with values according to the aspsms.com
+[documentation][aspsmsdoc].
 
 Examples
 --------
@@ -96,5 +96,5 @@ aspsms.send({
 
 
 [aspsms]: http://www.aspsms.com/
-[aspsmsdoc] : http://aspsms.com/xml/doc/xmlsvr191.pdf
+[aspsmsdoc]: http://aspsms.com/xml/doc/xmlsvr191.pdf
 [node]: http://nodejs.org/
