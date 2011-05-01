@@ -1,0 +1,17 @@
+{
+  "name": "aspsms",
+  "description": "Send SMS text messages through aspsms.com",
+  "version": "0.1.0",
+  "homepage": "http://maxkueng.com/node-aspsms",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxkueng/node-aspsms.git"
+  },
+  "author": "Max Kueng <me@maxkueng.com> (http://maxkueng.com/)",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies" : {
+    "request": ">=1.9.0"
+  }
+}
