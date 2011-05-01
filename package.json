@@ -1,9 +1,9 @@
 {
   "name": "aspsms",
   "description": "Send SMS text messages through aspsms.com",
+  "keywords" : [ "sms", "text message", "short message service", "aspsms" ], 
   "version": "0.1.1",
   "homepage": "http://maxkueng.com/node-aspsms",
-  "license": "MIT", 
   "repository": {
     "type": "git",
     "url": "git://github.com/maxkueng/node-aspsms.git"
@@ -15,5 +15,11 @@
   "dependencies" : {
     "request": ">=1.9.0"
   }, 
-  "main" : "./lib/aspsms"
+  "main" : "./lib/aspsms", 
+  "licenses" : [ 
+    { 
+	  "type" : "MIT", 
+      "url" : "https://github.com/maxkueng/node-aspsms/raw/master/LICENSE"
+    }
+  ]
 }
