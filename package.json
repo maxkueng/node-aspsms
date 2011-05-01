@@ -9,9 +9,10 @@
   },
   "author": "Max Kueng <me@maxkueng.com> (http://maxkueng.com/)",
   "directories": {
-    "lib": "lib"
+    "lib": "./lib"
   },
   "dependencies" : {
     "request": ">=1.9.0"
-  }
+  }, 
+  "main" : "./lib/aspsms"
 }
