@@ -24,6 +24,14 @@ Options
  - `originator` Name of the sender
  - `recipient` Mobile phone number of the recipient
 
+Errors
+------
+
+If the operation was successfull the `error` object passed to the callback will
+be `null`. If the operation fails the error object will contain an
+`errorCode` and an `errorDescription` field with values according to the
+[aspsms.com documentation][aspsmsdoc].
+
 Examples
 --------
 
@@ -49,7 +57,7 @@ aspsms.send({
 }, 'Hello, this is a test.');
 ```
 
-Show hwo many credits I have left
+Show how many credits you have left
 
 ```javascript
 var aspsms = require('aspsms');
@@ -88,4 +96,5 @@ aspsms.send({
 
 
 [aspsms]: http://www.aspsms.com/
+[aspsmsdoc] : http://aspsms.com/xml/doc/xmlsvr191.pdf
 [node]: http://nodejs.org/
